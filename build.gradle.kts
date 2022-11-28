@@ -4,6 +4,7 @@ import org.jetbrains.dokka.gradle.DokkaTaskPartial
 plugins {
     kotlin("jvm") version "1.7.21"
     id("org.jetbrains.dokka") version "1.7.20"
+    id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.12.1"
 }
 
 group = "org.example"

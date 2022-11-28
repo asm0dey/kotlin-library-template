@@ -1,0 +1,4 @@
+public final class com/github/asm0dey/librarytemplate/common/MainKt {
+	public static final fun trulyRandomInt ()I
+}
+
