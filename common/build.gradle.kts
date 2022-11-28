@@ -24,3 +24,7 @@ sourceSets {
 kotlin {
     explicitApi()
 }
+
+tasks.test {
+    useJUnitPlatform()
+}
