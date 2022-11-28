@@ -1,8 +1,8 @@
-import org.jetbrains.dokka.DokkaConfiguration.Visibility.PROTECTED
-import org.jetbrains.dokka.DokkaConfiguration.Visibility.PUBLIC
 import org.jetbrains.dokka.gradle.DokkaTask
+import org.jetbrains.dokka.gradle.DokkaTaskPartial
 
 plugins {
+    kotlin("jvm") version "1.7.21"
     id("org.jetbrains.dokka") version "1.7.20"
 }
 
@@ -15,20 +15,13 @@ repositories {
 
 subprojects {
     apply(plugin = "org.jetbrains.dokka")
+    apply(plugin = "org.jetbrains.kotlin.jvm")
+}
+
+tasks.withType<DokkaTaskPartial>().configureEach {
+    dokkaSourceSets.configureEach { reportUndocumented.set(true) }
 }
 
 tasks.withType<DokkaTask>().configureEach {
-    dokkaSourceSets.configureEach {
-        documentedVisibilities.set(
-            setOf(
-                PUBLIC,
-                PROTECTED,
-            )
-        )
-
-        perPackageOption {
-            matchingRegex.set(".*internal.*")
-            suppress.set(true)
-        }
-    }
+    dokkaSourceSets.configureEach { reportUndocumented.set(true) }
 }

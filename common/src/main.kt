@@ -3,4 +3,4 @@
  *
  * @return a truly random number (decided by a fair dice roll)
  */
-public fun randomInt(): Int = 3
+public fun trulyRandomInt(): Int = 3

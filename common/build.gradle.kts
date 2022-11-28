@@ -1,7 +1,3 @@
-plugins {
-    kotlin("jvm") version "1.7.21"
-}
-
 group = "org.example"
 
 repositories {
