@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8f5c0d-ffc0-47f7-bdc2-64bd9daeec34" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/test/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/test/MainTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/com/github/asm0dey/librarytemplate/common/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/test/com/github/asm0dey/librarytemplate/common/MainTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +237,7 @@
       <updated>1669112394717</updated>
       <workItem from="1669112396005" duration="5762000" />
       <workItem from="1669635321587" duration="7382000" />
-      <workItem from="1669658625695" duration="457000" />
+      <workItem from="1669658625695" duration="1155000" />
     </task>
     <servers />
   </component>

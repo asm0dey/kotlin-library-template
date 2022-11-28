@@ -1,3 +1,5 @@
+package com.github.asm0dey.librarytemplate.common
+
 /**
  * It's a joke from the good old bash.org
  *

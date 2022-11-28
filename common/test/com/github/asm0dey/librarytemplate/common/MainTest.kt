@@ -1,3 +1,5 @@
+package com.github.asm0dey.librarytemplate.common
+
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
