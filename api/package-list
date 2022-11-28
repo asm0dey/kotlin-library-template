@@ -1,5 +1,5 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-$dokka.location:////PointingToDeclaration/common/[root]/index.html
-$dokka.location://trulyRandomInt/#/PointingToDeclaration/common/[root]/truly-random-int.html
 
+module:common
+com.github.asm0dey.librarytemplate.common
