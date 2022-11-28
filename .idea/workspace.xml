@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8f5c0d-ffc0-47f7-bdc2-64bd9daeec34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/library_template.api" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/api/common.api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="2d8f5c0d-ffc0-47f7-bdc2-64bd9daeec34" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,31 +40,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="library_template" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="library_template" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="library_template" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="library_template" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="library_template" type="f1a62948:ProjectNode" />
-                <item name="common" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -123,8 +94,8 @@
       <recent name="com.github.asm0dey.librarytemplate.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.library_template [apiDump]">
-    <configuration name="library_template [apiCheck]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.library_template [koverMergedHtmlReport]">
+    <configuration name="library_template [koverHtmlReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +106,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="apiCheck" />
+            <option value="koverHtmlReport" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +116,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="library_template [apiDump]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="library_template [koverMergedHtmlReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,7 +127,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="apiDump" />
+            <option value="koverMergedHtmlReport" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,7 +137,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="library_template [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="library_template [koverVerify]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -177,7 +148,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="koverVerify" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="library_template [dokkaHtmlCollector]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="library_template [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -198,7 +169,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="dokkaHtmlCollector" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,10 +179,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="library_template [dokkaHtmlMultiModule]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="library_template:common [koverHtmlReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/common" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -219,7 +190,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="dokkaHtmlMultiModule" />
+            <option value="koverHtmlReport" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -231,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.library_template [apiDump]" />
-        <item itemvalue="Gradle.library_template [apiCheck]" />
-        <item itemvalue="Gradle.library_template [dokkaHtmlMultiModule]" />
-        <item itemvalue="Gradle.library_template [clean]" />
-        <item itemvalue="Gradle.library_template [dokkaHtmlCollector]" />
+        <item itemvalue="Gradle.library_template [koverMergedHtmlReport]" />
+        <item itemvalue="Gradle.library_template:common [koverHtmlReport]" />
+        <item itemvalue="Gradle.library_template [koverHtmlReport]" />
+        <item itemvalue="Gradle.library_template [test]" />
+        <item itemvalue="Gradle.library_template [koverVerify]" />
       </list>
     </recent_temporary>
   </component>
@@ -249,8 +220,16 @@
       <updated>1669112394717</updated>
       <workItem from="1669112396005" duration="5762000" />
       <workItem from="1669635321587" duration="7382000" />
-      <workItem from="1669658625695" duration="1656000" />
+      <workItem from="1669658625695" duration="3701000" />
     </task>
+    <task id="LOCAL-00001" summary="Adds Kotlin binary compatibility validator">
+      <created>1669661646125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669661646125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,5 +237,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adds Kotlin binary compatibility validator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Kotlin binary compatibility validator" />
   </component>
 </project>

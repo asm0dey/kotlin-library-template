@@ -26,10 +26,22 @@ jobs:
           VERSION=$(git tag --sort=committerdate | tail -1)
           echo Generating API documentation for version $VERSION
           ./gradlew -Pversion=$VERSION dokkaHtmlMultiModule
+      - name: Generate coverage report
+        if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
+        run: |
+          VERSION=$(git tag --sort=committerdate | tail -1)
+          echo Generating coverage report for version $VERSION
+          ./gradlew koverMergedHtmlReport
+      - name: Copy HTML artifacts
+        if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
+        run: |
+          mkdir -p html/api
+          mkdir -p html/coverage
+          cp -r build/dokka/htmlMultiModule/* html/api/
+          cp -r build/reports/kover/merged/html/* html/coverage/
       - name: Deploy API documentation to Github Pages
         if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build/dokka/htmlMultiModule
-          target-folder: api
+          folder: html
